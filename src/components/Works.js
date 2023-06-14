@@ -1,11 +1,16 @@
 import React from 'react';
-import './App.css';
+import styled from "styled-components"
+
+const Section = styled.div`
+  height: 100vh;
+  scroll-snap-align: center;
+`;
 
 function Works() {
   return (
-    <div className="Works">
-     
-    </div>
+    <Section >
+    <p>Works</p>
+   </Section>
   );
 }
 
