@@ -71,7 +71,7 @@ const Right = styled.div`
   flex: 1;
 `;
 
-function Works() {
+const Works = () => {
   return (
     <Section>
       <Container>
@@ -88,6 +88,6 @@ function Works() {
       </Container>
     </Section>
   );
-}
+};
 
 export default Works;
