@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 const Section = styled.div`
   display: flex;
@@ -58,18 +57,10 @@ const Navbar = () => {
       <Container>
         <Links>
           <List>
-            <ListItem>
-              <Link to="/">Home</Link>
-            </ListItem>
-            <ListItem>
-              <Link to="/who">About Me</Link>
-            </ListItem>
-            <ListItem>
-              <Link to="/works">Projects</Link>
-            </ListItem>
-            <ListItem>
-              <Link to="/contact">Contact</Link>
-            </ListItem>
+            <ListItem>Home</ListItem>
+            <ListItem>About Me</ListItem>
+            <ListItem>Projects</ListItem>
+            <ListItem>Contact</ListItem>
           </List>
         </Links>
         <Icons>

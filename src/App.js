@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Routes, //replaces "Switch" used till v5
-  Route,
-} from "react-router-dom";
-//import './App.css';
 import Hero from "./components/Hero";
 import Who from "./components/Who";
 import Works from "./components/Works";
@@ -30,17 +24,12 @@ const Container = styled.div`
 
 function App() {
   return (
-    <BrowserRouter>
-      <Container>
-        <Routes>
-          <Route path="/" element={<Hero />}>
-            <Route path="/who" element={<Who />} />
-            <Route path="/works" element={<Works />} />
-            <Route path="/contact" element={<Contact />} />
-          </Route>
-        </Routes>
-      </Container>
-    </BrowserRouter>
+    <Container>
+      <Hero />
+      <Who />
+      <Works />
+      <Contact />
+    </Container>
   );
 }
 
