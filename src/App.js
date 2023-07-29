@@ -26,9 +26,9 @@ function App() {
   return (
     <Container>
       <Hero />
-      {/* <Who />
+      <Who />
       <Works />
-      <Contact /> */}
+      <Contact />
     </Container>
   );
 }
